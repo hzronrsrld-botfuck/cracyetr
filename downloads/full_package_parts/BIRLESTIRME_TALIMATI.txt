@@ -1,0 +1,16 @@
+CH36 TAM KARAKTER PAKETI - BIRLESTIRME
+
+Bu klasordeki part00, part01, part02 ve part03 dosyalarinin tamamini indirin.
+Hepsini ayni klasore koyun.
+
+Windows PowerShell:
+Get-Content Ch36_8_character_unity_set.zip.part00,Ch36_8_character_unity_set.zip.part01,Ch36_8_character_unity_set.zip.part02,Ch36_8_character_unity_set.zip.part03 -AsByteStream | Set-Content Ch36_8_character_unity_set.zip -AsByteStream
+
+Windows CMD:
+copy /b Ch36_8_character_unity_set.zip.part00+Ch36_8_character_unity_set.zip.part01+Ch36_8_character_unity_set.zip.part02+Ch36_8_character_unity_set.zip.part03 Ch36_8_character_unity_set.zip
+
+Linux/macOS:
+cat Ch36_8_character_unity_set.zip.part00 Ch36_8_character_unity_set.zip.part01 Ch36_8_character_unity_set.zip.part02 Ch36_8_character_unity_set.zip.part03 > Ch36_8_character_unity_set.zip
+
+SHA-256:
+61a0a54efda95067e826557e3a3a5adc55433b9ee357800a2c03045f41a67a30
